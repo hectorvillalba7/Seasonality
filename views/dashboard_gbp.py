@@ -85,7 +85,7 @@ def run():
     daily_seasonality['Percentage_Positive'] = daily_seasonality['Percentage_Positive'].round(2)
 
     #selectbox
-    options = ["Estacionalidad Enero", "Estacionalidad Febrero", "Estacionalidad Marzo","Estacionalidad Abril","Estacionalidad Mayo", "Estacionalidad Junio", "Estacionalidad Julio", "Estacionalidad Agosto","Estacionalidad Septiembre", "Estacionalidad Octubre", "Estacionalidad Noviembre", "Estacionalidad Diciembre"]
+    options = ["Seasonality January", "Seasonality February", "Seasonality March","Seasonality April","Seasonality May", "Seasonality June", "Seasonality July", "Seasonality August","Seasonality September", "Seasonality October", "Seasonality November", "Seasonality December"]
     selected_chart = st.selectbox("Selecciona el gráfico a mostrar:", options)
 
     # Show selected chart

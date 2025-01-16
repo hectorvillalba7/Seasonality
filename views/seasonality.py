@@ -1,66 +1,66 @@
 import streamlit as st
 
 def run():
-    # Título principal
-    st.title("Análisis Estacional en Mercados de Futuros y Divisas")
+    # Main Title
+    st.title("Seasonal Analysis in Futures and Forex Markets")
 
-    # Introducción
+    # Introduction
     st.markdown(
         """
-        Invertir en los mercados de futuros y divisas puede ser un desafío, pero el análisis de estacionalidad 
-        proporciona una ventaja clave para identificar patrones recurrentes y mejorar la toma de decisiones.
+        Investing in futures and forex markets can be challenging, but seasonal analysis 
+        provides a key advantage in identifying recurring patterns and improving decision-making.
         """
     )
 
-    # Sección: ¿Qué es la estacionalidad?
-    st.header("¿Qué es la estacionalidad y por qué es importante?")
+    # Section: What is Seasonality?
+    st.header("What is Seasonality and Why is it Important?")
     st.markdown(
         """
-        La estacionalidad se refiere a patrones de comportamiento que se repiten en ciertos períodos del año. 
-        Estos patrones pueden estar influenciados por:
-        - **Factores económicos**: Actividad comercial y fiscal.
-        - **Climáticos**: Ciclos de siembra y cosecha en productos agrícolas.
-        - **Políticos y sociales**: Eventos recurrentes como elecciones o vacaciones.
+        Seasonality refers to behavioral patterns that repeat during certain times of the year. 
+        These patterns can be influenced by:
+        - **Economic factors:** Commercial and fiscal activity.
+        - **Climatic factors:** Planting and harvest cycles in agricultural products.
+        - **Political and social factors:** Recurring events like elections or holidays.
 
-        **Beneficios del análisis estacional:**
-        - **Predicción precisa:** Anticipa movimientos de precios con datos históricos.
-        - **Reducción de riesgos:** Identifica periodos de alta volatilidad.
-        - **Mejor timing:** Optimiza puntos de entrada y salida.
+        **Benefits of Seasonal Analysis:**
+        - **Accurate predictions:** Anticipate price movements using historical data.
+        - **Risk reduction:** Identify periods of high volatility.
+        - **Better timing:** Optimize entry and exit points.
         """
     )
 
-    # Sección: ¿Por qué se forman las tendencias estacionales?
-    st.header("¿Por qué se forman las tendencias estacionales?")
+    # Section: Why Do Seasonal Trends Form?
+    st.header("Why Do Seasonal Trends Form?")
     st.markdown(
         """
-        Las tendencias estacionales tienen razones lógicas detrás, como:
+        Seasonal trends have logical reasons behind them, such as:
 
-        1. **Ciclos económicos:** Picos y caídas en función del año fiscal o temporadas clave.
-        2. **Factores climáticos y agrícolas:** Impacto de las estaciones en la producción y precios de materias primas.
-        3. **Eventos anuales recurrentes:** Festividades, políticas monetarias planificadas o ciclos de consumo.
-        4. **Psicología del mercado:** Comportamiento cíclico de los inversores.
+        1. **Economic cycles:** Peaks and dips based on the fiscal year or key seasons.
+        2. **Climatic and agricultural factors:** Impact of seasons on production and commodity prices.
+        3. **Recurring annual events:** Holidays, planned monetary policies, or consumption cycles.
+        4. **Market psychology:** Cyclical behavior of investors.
         """
     )
 
-    # Sección: Aplicación práctica
-    st.header("Aplicación práctica en tu estrategia de inversión")
+    # Section: Practical Application
+    st.header("Practical Application in Your Investment Strategy")
     st.markdown(
         """
-        Incorporar el análisis de estacionalidad en tus estrategias te permite anticiparte a oportunidades clave. Por ejemplo:
+        Incorporating seasonal analysis into your strategies allows you to anticipate key opportunities. For example:
 
-        - **Divisas:** Aprovechar la fortaleza del dólar en el cuarto trimestre debido a la alta actividad económica.
-        - **Futuros de energía:** Identificar aumentos de precios del petróleo en verano, cuando la demanda de combustible es mayor.
+        - **Forex:** Capitalize on the strength of the dollar in Q4 due to high economic activity.
+        - **Energy futures:** Identify oil price increases in the summer when fuel demand is higher.
 
-        El análisis estacional no solo ayuda a comprender el mercado, sino también a optimizar tus decisiones de inversión.
+        Seasonal analysis not only helps in understanding the market but also in optimizing your investment decisions.
         """
     )
 
-    # Conclusión
-    st.header("Conclusión")
+    # Conclusion
+    st.header("Conclusion")
     st.markdown(
         """
-        El análisis de estacionalidad es una herramienta invaluable para cualquier inversor. 
-        Aprovechar estos patrones históricos puede optimizar tus decisiones, reducir riesgos y maximizar beneficios. 
-        ¡Empieza hoy mismo a incorporar la estacionalidad en tu estrategia de inversión!
+        Seasonal analysis is an invaluable tool for any investor. 
+        Leveraging these historical patterns can optimize your decisions, reduce risks, and maximize profits. 
+        Start incorporating seasonality into your investment strategy today!
         """
     )
